@@ -22,22 +22,11 @@ It is the short-circuit current through the load terminals. i.e., IN = Isc
 
 Norton’s Resistance, RN:It is the look-back resistance across the load terminals when all the sources are replaced by their internal resistances. An ideal voltage source is replaced by short- circuiting as its internal resistance is zero. An ideal current source is replaced by open- circuiting as its internal resistance is infinity.
  
-**CIRCUIT DIAGRAM: VERIFICATION OF NORTON’S THEOREM**
+**CIRCUIT DIAGRAM:**
 
-**To measure IL**
+<img width="477" height="666" alt="Screenshot 2026-02-08 205817" src="https://github.com/user-attachments/assets/577296bb-2128-43e6-befb-76e9b95c6024" />
 
-
-**To measure RTh or RN**
-
-
-
-**To measure IN or Isc**
-
- 
-**Thevenin’s equivalent circuit**
-
-
-**Norton’s equivalent circuit**
+<img width="412" height="467" alt="Screenshot 2026-02-08 205825" src="https://github.com/user-attachments/assets/8cbda30a-73c2-40dd-b927-05dd05021ba0" />
 
 
 **PROCEDURE:**
@@ -70,34 +59,18 @@ Norton’s Resistance, RN:It is the look-back resistance across the load termina
 
 12.	Theoretically verify the Norton’s theorem.
 
-**TABULAR COLUMN: 1**
-To measure I L
+**TABLE:**
 
-Vi (volts)	IL (amps)
+<img width="320" height="712" alt="Screenshot 2026-02-08 205835" src="https://github.com/user-attachments/assets/ddd0969c-004a-4374-8786-2fbf03984443" />
 
-**TABULAR COLUMN:2**
+**THEORETICAL CALCULATION:**
 
-To measure RTh or RN
+<img width="342" height="686" alt="Screenshot 2026-02-08 205851" src="https://github.com/user-attachments/assets/8d4f524f-9717-4ad8-a292-15529c748f11" />
 
-Vi (volts)	RTh (Ω)
+**MARK SPLITUP:**
 
+<img width="343" height="158" alt="Screenshot 2026-02-08 205858" src="https://github.com/user-attachments/assets/b79555c9-4427-4dbe-8203-15da6221b9ba" />
 
-**TABULAR COLUMN:3**
-
-To measure IN or Isc
-
-Vi (volts)	IN (amps)
-	
-**MODEL CALCULATION:**
-
-Practical value of IL (from tabulation 1) =2.3mA
-
-**Verification of Norton’s theorem**
-
-IL = IN * RN / ( RN+ RL ) = 2.43mA
-
-Theoretical calculation of IL ,IN and RTh(RN) for the given circuit:
- 
 
 
 **RESULT:**
